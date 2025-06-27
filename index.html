@@ -43,6 +43,7 @@
         #apie { background-color: #e8f8ff; }
         #paslaugos { background-color: #fff8e1; }
         #kontaktai { background-color: #e0ffe0; }
+        #parduotuve { background-color: #f0f0f0; }
         #galerija { background-color: #f0f0ff; }
         footer {
             background-color: #222;
@@ -51,12 +52,8 @@
             padding: 20px;
             margin-top: 40px;
         }
-        .contact-info {
-            line-height: 1.6;
-        }
-        ul li {
-            margin-bottom: 8px;
-        }
+        .contact-info { line-height: 1.6; }
+        ul li { margin-bottom: 8px; }
         .call-button {
             display: inline-block;
             background: #ffcc00;
@@ -67,22 +64,26 @@
             font-weight: bold;
             margin-top: 15px;
         }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin: 10px;
+            width: 45%;
+        }
         .gallery {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
         }
-        .gallery img {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            width: 45%;
-        }
     </style>
 </head>
 <body>
+<div style="text-align:center; padding-top:20px;">
+    <img src="elektrovilis_logo.png" alt="Elektrovilis logotipas" style="max-height:100px;">
+</div>
 
 <header>
     <h1>Mažoji bendrija Elektrovilis</h1>
@@ -93,7 +94,8 @@
     <a href="#apie">Apie mus</a>
     <a href="#paslaugos">Paslaugos</a>
     <a href="#galerija">Galerija</a>
-    <a href="#parduotuve">Parduotuvė</a> | <a href="#kontaktai">Kontaktai</a>
+    <a href="#parduotuve">Parduotuvė</a> |
+    <a href="#kontaktai">Kontaktai</a>
 </nav>
 
 <section id="apie">
@@ -106,45 +108,35 @@
     <ul>
         <li>Elektros instaliacijos darbai naujos statybos ir renovuojamuose objektuose</li>
         <li>Gedimų diagnostika, lokalizavimas ir šalinimas</li>
-        <li>Buitinės technikos (orkaičių, kaitlenčių, gartraukių ir kt.) prijungimas</li>
+        <li>Buitinės technikos prijungimas</li>
         <li>Šviestuvų montavimas, keitimas ir prijungimas</li>
-        <li>Kištukinių lizdų, jungiklių, perjungėjų, kryžminių perjungėjų montavimas</li>
-        <li>Laiptinių pagrindinių elektros laidų keitimas naujais</li>
-        <li>Elektros skydinių pertvarkymas ir modernizavimas</li>
-        <li>Išmaniųjų namų sistemų prijungimas ir konfigūravimas</li>
-        <li>LED apšvietimo sprendimų diegimas</li>
-        <li>Laidų instaliacijos paslėpimas sienose ir po grindimis</li>
-        <li>Žemės įžeminimo sistemos įrengimas ir patikra</li>
-        <li>Apsaugos sistemų (signalizacijos, kameros) maitinimo įrengimas</li>
-        <li>Elektromobilių įkrovimo stotelių įrengimas ir pajungimas</li>
+        <li>Kištukinių lizdų, jungiklių montavimas</li>
+        <li>Laiptinių laidų keitimas</li>
+        <li>Skydinių pertvarkymas</li>
+        <li>Išmanūs namai, LED apšvietimas</li>
+        <li>Žemės įžeminimas</li>
+        <li>Apsaugos sistemų maitinimas</li>
+        <li>Elektromobilių įkrovimo stotelių įrengimas</li>
     </ul>
 </section>
 
 <section id="galerija">
     <h2>Galerija: Mūsų darbai</h2>
     <div class="gallery">
-        <img src="uninstal.jpg" alt="Darbo nuotrauka 1">
-<img src="instal.jpg" alt="Darbo nuotrauka 2">
-<img src="20220527_114957.jpg" alt="Darbo nuotrauka 3">
-<img src="20220816_112108.jpg" alt="Darbo nuotrauka 4">
-<img src="20220818_085955.jpg" alt="Darbo nuotrauka 5">
-<img src="20220902_180728.jpg" alt="Darbo nuotrauka 6">
-<img src="20220905_112526.jpg" alt="Darbo nuotrauka 7">
-<img src="20220905_112529.jpg" alt="Darbo nuotrauka 8">
-    <figure><img src="20220527_114957.jpg" alt="Instaliacijos paruošimas grindyse ir sienose" title="Instaliacijos paruošimas grindyse ir sienose" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Instaliacijos paruošimas grindyse ir sienose</figcaption></figure>
-<figure><img src="20220816_112108.jpg" alt="Instaliacija sienoje (darbinis etapas)" title="Instaliacija sienoje (darbinis etapas)" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Instaliacija sienoje (darbinis etapas)</figcaption></figure>
-<figure><img src="20220818_085955.jpg" alt="Skydinės dėžutės paruošimas laidų pajungimui" title="Skydinės dėžutės paruošimas laidų pajungimui" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Skydinės dėžutės paruošimas laidų pajungimui</figcaption></figure>
-<figure><img src="20220902_180728.jpg" alt="Skydinės laidų pajungimas (tarpinis etapas)" title="Skydinės laidų pajungimas (tarpinis etapas)" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Skydinės laidų pajungimas (tarpinis etapas)</figcaption></figure>
-<figure><img src="20220905_112526.jpg" alt="Tvarkingas pilnai sujungtas skydas" title="Tvarkingas pilnai sujungtas skydas" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Tvarkingas pilnai sujungtas skydas</figcaption></figure>
-<figure><img src="20220905_112529.jpg" alt="Pilnai sujungtas dvigubas skydas su automatika" title="Pilnai sujungtas dvigubas skydas su automatika" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Pilnai sujungtas dvigubas skydas su automatika</figcaption></figure>
-</div>
+        <img src="uninstal.jpg" alt="Skydinė prieš">
+        <img src="instal.jpg" alt="Skydinė po">
+        <img src="20220527_114957.jpg" alt="Instaliacija sienose">
+        <img src="20220816_112108.jpg" alt="Pjautos sienos laidams">
+        <img src="20220818_085955.jpg" alt="Laidų tvarkymas į skydą">
+        <img src="20220902_180728.jpg" alt="Skydas – jungimas">
+        <img src="20220905_112526.jpg" alt="Sutvarkytas skydas">
+        <img src="20220905_112529.jpg" alt="Pilnas skydas su automatika">
+    </div>
 </section>
-
 
 <section id="parduotuve">
     <h2>Parduotuvė</h2>
-    <p>Elektriko prekių skiltis – <strong>jau netrukus!</strong> Čia galėsite rasti dažniausiai naudojamus produktus, tokius kaip jungikliai, rozetės, automatai ar net elektromobilių įkrovimo stoteles.</p>
-    <p>Sekite naujienas – dirbame ties sprendimu!</p>
+    <p>Elektriko prekių skiltis – <strong>jau netrukus!</strong></p>
 </section>
 
 <section id="kontaktai">
@@ -152,16 +144,10 @@
     <div class="contact-info">
         <p><strong>Telefonas:</strong> +37060251219</p>
         <p><strong>El. paštas:</strong> <a href="mailto:elektrovilis@gmail.com">elektrovilis@gmail.com</a></p>
-        <p><strong>Veiklos vieta:</strong> Alytus ir apylinkės</p>
+        <p><strong>Vieta:</strong> Alytus ir apylinkės</p>
         <p><strong>Darbo laikas:</strong> Dirbame pagal susitarimą</p>
         <p><a class="call-button" href="tel:+37060251219">📞 Skambinti dabar</a></p>
-    <figure><img src="20220527_114957.jpg" alt="Instaliacijos paruošimas grindyse ir sienose" title="Instaliacijos paruošimas grindyse ir sienose" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Instaliacijos paruošimas grindyse ir sienose</figcaption></figure>
-<figure><img src="20220816_112108.jpg" alt="Instaliacija sienoje (darbinis etapas)" title="Instaliacija sienoje (darbinis etapas)" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Instaliacija sienoje (darbinis etapas)</figcaption></figure>
-<figure><img src="20220818_085955.jpg" alt="Skydinės dėžutės paruošimas laidų pajungimui" title="Skydinės dėžutės paruošimas laidų pajungimui" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Skydinės dėžutės paruošimas laidų pajungimui</figcaption></figure>
-<figure><img src="20220902_180728.jpg" alt="Skydinės laidų pajungimas (tarpinis etapas)" title="Skydinės laidų pajungimas (tarpinis etapas)" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Skydinės laidų pajungimas (tarpinis etapas)</figcaption></figure>
-<figure><img src="20220905_112526.jpg" alt="Tvarkingas pilnai sujungtas skydas" title="Tvarkingas pilnai sujungtas skydas" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Tvarkingas pilnai sujungtas skydas</figcaption></figure>
-<figure><img src="20220905_112529.jpg" alt="Pilnai sujungtas dvigubas skydas su automatika" title="Pilnai sujungtas dvigubas skydas su automatika" style="width:45%; border: 2px solid #ccc; border-radius: 8px; margin:10px;"><figcaption style="text-align:center; font-style:italic;">Pilnai sujungtas dvigubas skydas su automatika</figcaption></figure>
-</div>
+    </div>
 </section>
 
 <footer>

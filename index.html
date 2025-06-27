@@ -7,20 +7,21 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom right, #fdf6e3, #ffe680);
+            background: linear-gradient(to bottom right, #d1f6e3, #ffe680);
             color: #222;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ffcc00;
+            background-color: #ffc600;
             color: #000;
             padding: 20px;
             text-align: center;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
         nav {
-            background-color: #333;
+            background-color: #222;
+            color: white;
             padding: 10px;
             text-align: center;
         }
@@ -28,49 +29,9 @@
             color: white;
             margin: 0 15px;
             text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            color: #ffcc00;
-            text-decoration: underline;
         }
         section {
-            padding: 30px;
-            margin: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        #apie { background-color: #e8f8ff; }
-        #paslaugos { background-color: #fff8e1; }
-        #kontaktai { background-color: #e0ffe0; }
-        #parduotuve { background-color: #f0f0f0; }
-        #galerija { background-color: #f0f0ff; }
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
             padding: 20px;
-            margin-top: 40px;
-        }
-        .contact-info { line-height: 1.6; }
-        ul li { margin-bottom: 8px; }
-        .call-button {
-            display: inline-block;
-            background: #ffcc00;
-            color: black;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 15px;
-        }
-        .gallery img {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #ccc;
-            border-radius: 8px;
-            margin: 10px;
-            width: 45%;
         }
         .gallery {
             display: flex;
@@ -78,81 +39,67 @@
             justify-content: center;
             gap: 20px;
         }
+        .gallery img {
+            max-width: 300px;
+            border: 2px solid #ccc;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
-<div style="text-align:center; padding-top:20px;">
-    <img src="elektrovilis_logo.png" alt="Elektrovilis logotipas" style="max-height:100px;">
-</div>
-
-<header>
-    <h1>Mažoji bendrija Elektrovilis</h1>
-    <p>Profesionalūs elektros instaliacijos darbai Alytuje ir aplink</p>
-</header>
-
-<nav>
-    <a href="#apie">Apie mus</a>
-    <a href="#paslaugos">Paslaugos</a>
-    <a href="#galerija">Galerija</a>
-    <a href="#parduotuve">Parduotuvė</a> |
-    <a href="#kontaktai">Kontaktai</a>
-</nav>
-
-<section id="apie">
-    <h2>Apie mus</h2>
-    <p>MB Elektrovilis – patikimas elektros darbų partneris. Atliekame įvairius elektros instaliacijos darbus, nuo smulkių buitinės technikos pajungimų iki daugiabučių elektros sistemų atnaujinimo.</p>
-</section>
-
-<section id="paslaugos">
-    <h2>Mūsų paslaugos</h2>
-    <ul>
-        <li>Elektros instaliacijos darbai naujos statybos ir renovuojamuose objektuose</li>
-        <li>Gedimų diagnostika, lokalizavimas ir šalinimas</li>
-        <li>Buitinės technikos prijungimas</li>
-        <li>Šviestuvų montavimas, keitimas ir prijungimas</li>
-        <li>Kištukinių lizdų, jungiklių montavimas</li>
-        <li>Laiptinių laidų keitimas</li>
-        <li>Skydinių pertvarkymas</li>
-        <li>Išmanūs namai, LED apšvietimas</li>
-        <li>Žemės įžeminimas</li>
-        <li>Apsaugos sistemų maitinimas</li>
-        <li>Elektromobilių įkrovimo stotelių įrengimas</li>
-    </ul>
-</section>
-
-<section id="galerija">
-    <h2>Galerija: Mūsų darbai</h2>
-    <div class="gallery">
-        <img src="uninstal.jpg" alt="Skydinė prieš">
-        <img src="instal.jpg" alt="Skydinė po">
-        <img src="20220527_114957.jpg" alt="Instaliacija sienose">
-        <img src="20220816_112108.jpg" alt="Pjautos sienos laidams">
-        <img src="20220818_085955.jpg" alt="Laidų tvarkymas į skydą">
-        <img src="20220902_180728.jpg" alt="Skydas – jungimas">
-        <img src="20220905_112526.jpg" alt="Sutvarkytas skydas">
-        <img src="20220905_112529.jpg" alt="Pilnas skydas su automatika">
-    </div>
-</section>
-
-<section id="parduotuve">
-    <h2>Parduotuvė</h2>
-    <p>Elektriko prekių skiltis – <strong>jau netrukus!</strong></p>
-</section>
-
-<section id="kontaktai">
-    <h2>Kontaktai</h2>
-    <div class="contact-info">
-        <p><strong>Telefonas:</strong> +37060251219</p>
-        <p><strong>El. paštas:</strong> <a href="mailto:elektrovilis@gmail.com">elektrovilis@gmail.com</a></p>
-        <p><strong>Vieta:</strong> Alytus ir apylinkės</p>
-        <p><strong>Darbo laikas:</strong> Dirbame pagal susitarimą</p>
-        <p><a class="call-button" href="tel:+37060251219">📞 Skambinti dabar</a></p>
-    </div>
-</section>
-
-<footer>
-    <p>&copy; 2025 MB Elektrovilis. Visos teisės saugomos.</p>
-</footer>
-
+    <header>
+        <h1>MB Elektrovilis</h1>
+        <p>Profesionalūs elektros darbai</p>
+    </header>
+    <nav>
+        <a href="#">Apie mus</a>
+        <a href="#">Paslaugos</a>
+        <a href="#">Kontaktai</a>
+        <a href="#">Parduotuvė – netrukus</a>
+    </nav>
+    <section>
+        <h2>Paslaugos</h2>
+        <ul>
+            <li>Vidaus elektros instaliacija</li>
+            <li>Skydų montavimas ir pajungimas</li>
+            <li>Įžeminimo ir apsaugos įrengimas</li>
+            <li>Gedimų šalinimas</li>
+            <li>Elektros projektų derinimas</li>
+            <li>Elektromobilių stotelių įrengimas, pajungimas</li>
+        </ul>
+    </section>
+    <section>
+        <h2 style="text-align:center; margin-top: 40px;">Atlikti darbai – prieš ir po</h2>
+        <div class="gallery">
+            <div>
+                <h4 style="text-align:center;">Prieš</h4>
+                <img src="uninstal.jpg" alt="Prieš">
+            </div>
+            <div>
+                <h4 style="text-align:center;">Po</h4>
+                <img src="instal.jpg" alt="Po">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 style="text-align:center;">Kiti atlikti darbai</h2>
+        <div class="gallery">
+            <img src="20220527_114957.jpg" alt="">
+            <img src="20220816_112108.jpg" alt="">
+            <img src="20220818_085955.jpg" alt="">
+            <img src="20220902_180728.jpg" alt="">
+            <img src="20220905_112526.jpg" alt="">
+            <img src="20220905_112529.jpg" alt="">
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 MB Elektrovilis | +37060251219</p>
+    </footer>
 </body>
 </html>
